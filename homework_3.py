@@ -1,7 +1,7 @@
 # Dla oprocentowania 7%
 funds = 30_000
 percentage = 7.5
-capitalize = round(percentage/4,2)
+capitalize = round(percentage/4,2) #kapitalizacja 4 razy w roku
 print("Symulacja dla oprocentowania 7,5%:")
 print("Oprocentowanie kwartalne:", capitalize,"%.")
 print("Środki początkowe:", funds)
@@ -21,7 +21,7 @@ print()
 funds = 30_000
 percentage = 8.0
 capitalize = round(percentage/4,2)
-print("Symulacja dla oprocentowania 7,5%:")
+print("Symulacja dla oprocentowania 8%:")
 print("Oprocentowanie kwartalne:", capitalize,"%.")
 print("Środki początkowe:", funds)
 print("Saldo po pierwszej kapitalizacji:", round(funds * (1 + capitalize / 100), 2))
@@ -40,7 +40,7 @@ print()
 funds = 30_000
 percentage = 8.25
 capitalize = round(percentage/4,2)
-print("Symulacja dla oprocentowania 7,5%:")
+print("Symulacja dla oprocentowania 8.25%:")
 print("Oprocentowanie kwartalne:", capitalize,"%.")
 print("Środki początkowe:", funds)
 print("Saldo po pierwszej kapitalizacji:", round(funds * (1 + capitalize / 100), 2))
